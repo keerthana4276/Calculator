@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+<div class="Calculator">
+    <input type="text" id="inputbox" placeholder="0">
+
+<div>
+    <button class="button operator" onclick="Clear()">Ac</button>
+    <button class="button operator" onclick="del()">DEL</button>
+    <button class="button operator" onclick="numshow('%')">%</button>
+    <button class=" operator" onclick="numshow('/')">/</button>
+</div>
+
+<div>
+    <button class="button " onclick="numshow('7')">7</button>
+    <button class="button " onclick="numshow('8')">8</button>
+    <button class="button " onclick="numshow('9')">9</button>
+    <button class=" operator " onclick="numshow('*')">*</button>
+</div>
+<div>
+    <button class="button "onclick="numshow('4')">4</button>
+    <button class="button "onclick="numshow('5')">5</button>
+    <button class="button "onclick="numshow('6')">6</button>
+    <button class=" operator "onclick="numshow('-')">-</button>
+</div>
+<div>
+    <button class="button "onclick="numshow('1')">1</button>
+    <button class="button "onclick="numshow('2')">2</button>
+    <button class="button "onclick="numshow('3')">3</button>
+    <button class=" operator"onclick="numshow('+')">+</button>
+</div>
+<div>
+    <button class="button "onclick="numshow('00')">00</button>
+    <button class="button "onclick="numshow('0')">0</button>
+    <button class="button "onclick="numshow('.')">.</button>
+    <button class="eql" onclick="Calculate()">=</button>
+</div>
+</div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
